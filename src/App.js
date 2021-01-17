@@ -1,22 +1,27 @@
-import React from 'react';
-
-import './App.css';
-import UserGreetings  from "./UserGreetings/UserGreetings";
+import React from 'react'
+import './App.css'
+import Appbar from './components/Appbar'
+import Content from './components/Content'
+import DialogBankCodes from './components/DialogBankCodes'
+import Footer from './components/Footer'
+import ProblemFixedDialog from './components/ProblemFixedDialog'
+import Drawer from './components/Drawer'
+import { Divider } from '@material-ui/core'
 
 function App() {
   return (
-    <div className="App">
-      <header>
-       
-          <h1><strong> Logged In Or Not? </strong></h1>
-      
-      <UserGreetings/>
-      </header>
-
-
-
+    <div>
+      <div className='app'>
+        <Appbar />
+        <div className='blue-div'></div>
+        {/* <Drawer /> */}
+        <DialogBankCodes />
+        <ProblemFixedDialog />
+        <Content />
+        <Footer />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
