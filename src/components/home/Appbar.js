@@ -5,16 +5,14 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
-import logo from './../img/ef_logo.svg'
+import logo from './../../img/ef_logo.svg'
 
-// import Button from '@material-ui/core/Button'
-// import { Link } from '@material-ui/core'
-// import { Image } from '@material-ui/icons'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 200,
+    flexGrow: 1,
     backgroundColor: 'primary',
+    position: "sticky"
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -23,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   image: {
-    height: '30px',
+    height: '40px',
     width: 'auto',
     marginLeft: '20px',
   },
@@ -39,13 +37,12 @@ export default function Appbar() {
 
   return (
     <div>
-      <AppBar className={classes.root} position='fixed'>
+      <AppBar className={classes.root} position='sticky'>
         <Toolbar className={classes.toolbar}>
           <IconButton
-            edge='start'
+            
             className={classes.menuButton}
-            color='white'
-            aria-label='menu'
+            
           >
             <MenuIcon />
           </IconButton>

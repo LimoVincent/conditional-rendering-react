@@ -1,5 +1,5 @@
 import React from 'react'
-import Background from './../img/red_cross_opaque.png'
+import Background from './../../img/red_cross_opaque.png'
 import Typography from '@material-ui/core/Typography'
 function NonOnlineApplications() {
   return (

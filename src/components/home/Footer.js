@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, GridList, Typography } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
-import migri_logo_white from './../img/migri_logo_white.svg'
+import migri_logo_white from './../../img/migri_logo_white.svg'
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,

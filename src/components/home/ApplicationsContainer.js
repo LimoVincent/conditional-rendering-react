@@ -52,11 +52,13 @@ export const ApplicationsContainer = () => {
     },
   ]
   return (
-    // <h3>Choose an application below:</h3>
-    <div className='container'>
-      {applications.map((app) => (
-        <Application app={app} key={app.title} />
-      ))}
-    </div>
+    <>
+      <h3 style={{ margin: '5%' }}>Choose an application below:</h3>
+      <div className='container'>
+        {applications.map((app) => (
+          <Application app={app} key={app.title} />
+        ))}
+      </div>
+    </>
   )
 }

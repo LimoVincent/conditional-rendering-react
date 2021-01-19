@@ -1,0 +1,48 @@
+.fixed {
+  border: 1px solid red;
+}
+
+.bankcodes {
+  border: 2px solid green;
+}
+
+.update {
+  border: 1px solid red;
+}
+
+.update,
+.bankcodes,
+.fixed {
+  text-align: centre;
+  background-color: #d9d9d9;
+  margin: 6px;
+
+  padding: 2px;
+}
+
+#btn-fixed {
+  background-color: red;
+  margin: 0;
+}
+
+#btn-bankcodes {
+  background-color: green;
+}
+
+#btn-update {
+  background-color: red;
+}
+.cookies {
+  background-color: #ed8b00;
+  margin: 20px 0;
+  padding: 1rem 1rem;
+  font-size: 113%;
+}
+
+.btn-cookies {
+  background-color: rgb(245, 238, 238);
+  color: rgb(88, 69, 69);
+  padding: 0.5rem 2rem;
+  font-weight: 700;
+  margin-left: 30%;
+}

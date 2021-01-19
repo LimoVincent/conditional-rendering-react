@@ -5,17 +5,26 @@
 }
 
 body {
-  background-color: rgb(43, 35, 35);
+  background-color: #333333;
+  font-family: Montserrat, Tahoma, Verdana, Helvetica, Arial, sans-serif;
 }
 
 .app {
-  margin: 0% 20% 0% 20%;
-  margin-left: 20%;
-  padding: 2rem;
+  margin: 0% 15%;
+  padding: 1rem;
   background-color: #ffffff;
 }
 
 .blue-div {
   background-color: rgb(129, 129, 233);
   height: 100px;
+  margin: 0%;
+}
+
+@media (max-width: 1200px) {
+  .app {
+    margin: 0px;
+  }
+
+
 }

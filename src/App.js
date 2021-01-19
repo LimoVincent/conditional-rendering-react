@@ -1,12 +1,11 @@
 import React from 'react'
 import './App.css'
-import Appbar from './components/Appbar'
-import Content from './components/Content'
-import DialogBankCodes from './components/DialogBankCodes'
-import Footer from './components/Footer'
-import ProblemFixedDialog from './components/ProblemFixedDialog'
-import Drawer from './components/Drawer'
-import { Divider } from '@material-ui/core'
+import Appbar from './components/home/Appbar'
+import Content from './components/home/Content'
+import Dialogs from './components/home/Dialogs/Dialogs'
+import Footer from './components/home/Footer'
+// import Drawer from './components/home/home/Drawer'
+// import { Divider } from '@material-ui/core'
 
 function App() {
   return (
@@ -15,8 +14,7 @@ function App() {
         <Appbar />
         <div className='blue-div'></div>
         {/* <Drawer /> */}
-        <DialogBankCodes />
-        <ProblemFixedDialog />
+        <Dialogs />
         <Content />
         <Footer />
       </div>

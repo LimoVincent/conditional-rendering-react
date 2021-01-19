@@ -17,7 +17,6 @@ function Application({ app }) {
         </Typography>
       )}
     </div>
-    // <h1>Application</h1>
   )
 }
 

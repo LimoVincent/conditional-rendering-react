@@ -1,6 +1,6 @@
 import React from 'react'
 import Application from './Application'
-
+import './Application.css'
 function Applicant() {
   const applicant = [
     {
@@ -19,13 +19,15 @@ function Applicant() {
     },
   ]
   return (
-    <div className='applicant-container'>
+    <div>
       <h3> You are an employer Enter Finland for Employers</h3>
-      {applicant.map((app) => (
-        <div className='applicant'>
-          <Application app={app} />
-        </div>
-      ))}
+      <div className='container' id = "appid">
+        {applicant.map((app) => (
+          <div className='application'>
+            <Application app={app} key={app.title} />
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
